@@ -3,7 +3,7 @@ html
   head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
-    title 写给大家的安全
+    title 写给大家的安全手册
 
     // build:css styles/styles.css
     //- Check out 'src/bower_components/prism/themes/' for available themes
@@ -16,63 +16,508 @@ html
     article
 
       section
-        h1 写给大家的安全
+        h1 写给大家的
+        h1 安全手册
 
       section
-        h2 Keyboard Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-keys">bespoke-keys</a>
-
-      section
-        h2 Touch Interaction
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a>
-
-      section
-        h2 Responsive Slides
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
-
-      section
-        h2 Bullet List
-        h3.bullet Powered by <a href="https://github.com/markdalgleish/bespoke-bullets">bespoke-bullets</a>
+        h2 说到信息安全，你能想到的是什么？
         ul
-          li Bullet 1
-          li Bullet 2
-          li Bullet 3
+          li 
+          li 病毒
+          li 木马
+          li 中奖/警察办案诈骗
+          li 。。。
 
       section
-        h2 Syntax Highlighting
-        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
-        hr
-        pre
-          code.language-javascript.
-            bespoke.from('article', {
-              keys: true,
-              touch: true,
-              hash: true,
-              state: true,
-              bullets: 'li, .bullet'
-            });
-
-      section(data-bespoke-hash='named-route')
-        h2 Named Route
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
-
-      section(data-bespoke-state='emphatic')
-        h2 Emphatic Slide!
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-state">bespoke-state</a>
-
-      section
-        h2.bullet Just the beginning...
-        hr
-        ul
-          li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-          li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-          li Edit JavaScript in <em>'src/scripts/main.js'</em>
-        hr
+        h2 信息安全远超出你的想象
         ul
           li
-            strong Enjoy! :)
-            a(href='http://twitter.com/markdalgleish')  -@markdalgleish
+          li 打印的文件
+          li 复制的纸张
+          li 厕所里的抱怨（被偷听）
+          li “考，又没保存”（~~~ 断电后 ~~~）
+
+      section
+        h2 公司的信息资产
+        ul 
+          li HR
+          li 员工个人信息 工资
+          li 销售数据
+          li 客户信息
+          li 源代码
+          li 机密信息
+          li 市场 公关
+          li 不良信息（负面信息，丑闻）
+
+      section
+        h2 资产分类
+        ul 
+          li 信息资产：数据文件、数据库
+          li 软件资产：系统软件、应用软件
+          li 物理资产：计算机、通讯设备
+          li 服务资产：电力、消防、打印机、复印机
+          li 纸面资产：协议、合同
+          li 无形资产：公司形象、名誉、品牌
+          li 人力资产：员工、工人
+
+      section
+        h2 信息无处不在
+        ul 
+          li 电脑 U盘 屏幕
+          li 录入 保存
+          li 传输 邮寄
+          li 谈话
+          li 废弃
+
+      section
+        h2 信息安全的3要素
+        ul 
+          li 可用性(Availability)
+          li 完整性(Integrity)
+          li 保密性(Confidentiality)
+          li 附加要素
+          li 真实性(authenticity)
+          li 可审计(accountability)
+          li 不可抵赖(non-repudiation)
+
+      section
+        h2 物理安全和人员安全
+        ul 
+          li 办公场所布局
+          li 敏感区域
+          li Clean Room
+          li 门禁
+          li 胸卡
+          li 尾随者（*）
+
+      section
+        h1 身边的安全小提示
+
+      section
+        h2 复印机、打印机、填表处
+        ul
+          li
+          li 身份证，学位证，合同，个人简历（期望薪资）。。。
+          li 到处都是个人隐私
+
+      section
+        h2 个人电脑
+        ul 
+          li 物理安全：防丢防盗
+          li 信息安全
+
+      section
+        h2 设备丢失的代价
+        h1 ?
+
+      section
+        h2 设备丢失的代价
+        ul 
+          li 
+          li 硬件本身（笔记本：3000~15000）
+          li 这个呢？
+          li
+            h2 天津一工程检测公司南京丢失核放射源3天后找回
+          li 给跪了
+
+      section
+        h2 设备丢失的代价
+        硬件本身（笔记本：5000）
+        ul 
+          li 
+          li 恢复数据：人力、时间
+          li 信息泄露导致的直接损失：银行卡密码，商业机密，可乐配方
+          li 间接损失：公司名誉、声望、客户信赖
+
+      section
+        h2 设备丢失的代价
+        img(src="images/lost.png")
+
+      section
+        h2 U盘
+        ul 
+          li 病毒+泄密
+          li 不带在身上
+          li 公私分开
+          li 文件加密
+
+      section
+        h2 邮件主要安全问题
+        ul 
+          li 钓鱼
+          li 病毒
+          li 泄密
+
+      section
+        h2 邮件-发送-泄密
+        ul 
+          li 收件人，抄送是否正确
+          li 正确使用密送BCC
+          li 正文、署名是否正确
+          li 邮件正文、附件是否涉及到机密信息，是否能发给对方
+
+      section
+        h2 邮件-接收-中毒
+        ul 
+          li 不打开不可信附件
+          li 确认发信人
+          li 丢弃可疑邮件
+
+      section
+        h2 邮件常见安全问题-对策
+        ul 
+          li 查看网址连接
+          li 尤其是短网址，更要确认
+          li 附件要慎重
+
+      section
+        img(src="images/security_2.png")
+
+      section
+        img(src="images/raw_mail.png")
+
+      section
+        h2 SNS
+        ul 
+          li 勿玩物丧志
+          li 病毒传播的温床
+          li 企业信息泄密的途径
+          li 社工
+
+      section
+        h2 IM
+        ul 
+          li 附件
+          li 陌生人
+          li 交友还靠线下
+
+      section
+        h2 信息安全的不二法门
+        ul
+          li 用户教育
+
+      section
+        h1 个人电脑
+        h1 网络相关
+
+      section
+        h2 Windows为什么不安全？
+        ul
+          li 
+          li 因为你们都是管理员 :-)
+
+      section
+        h2 安全对策
+        ul 
+          li 平时使用普通用户
+          li 安装杀毒软件
+          li 常更新
+          li 关掉不用的服务：共享打印机、文件和设备、远程登录
+          li 打开计算机上的防火墙程序
+          li 设置安全的密码
+          li BIOS密码
+          li 经常重装机器
+          li 使用OS X或Linux（Ubuntu）
+          li 锁屏
+
+      section
+        h2 从哪里下载软件？
+        ul 
+          li 官网
+          li 不做以下事情：
+          li 非官网
+          li 论坛
+          li 汉化版
+          li 百度搜索结果
+
+      section
+        h2 网盘/笔记类应用
+        ul 
+          li 一不小心把账号密码或者商业机密共享出去
+          li 服务本身漏洞导致的用户信息泄露
+
+      section
+        h2 一次成功的漫游京东内部网络的过程（由一个开发人员失误导致）
+        a http://www.wooyun.org/bugs/wooyun-2014-055438
+
+      section
+        h2 手机
+        h3 为什么Android手机不安全？
+        ul
+          li 
+          li 因为它给了你太多的控制权
+          li 短信（如果你好久没收到10086的短信了，那么要注意了。）
+          li 联系人
+          li 电话
+          li 网络
+          li root
+          li 各种硬件（照相机等）
+          li SD卡：数据可疑被其它应用读取
+
+      section
+        h2 安装之前，确认权限
+        p 请求没必要的坚决不安装。
+
+      section
+        img(src='images/android_install.jpg')
+
+      section
+        h2 Android手机要确认
+        ul 
+          li 不直接下载APK
+          li 没事别root（iOS别越狱）
+          li 不知道`uid=0(root) gid=0(root)`为何物者不要root
+          li App Store
+          li Google Play/豌豆荚/小米市场
+
+      section
+        h2 Android手机防范对策
+        ul 
+          li 防丢失、勤备份
+          li 设密码
+          li 不要短信发送、保存重要信息
+          li 打电话时注意不要被外人听到
+          li 有钱换iPhone，没钱换feature phone
+          li ↑↑↑↑上面的是玩笑↑↑↑↑
+
+      section
+        h2 Wi-Fi
+        p  not WIFI WiFi wifi
+        ul 
+          li 问题
+          li 不分权限（对内/对外）
+          li 假热点（专门用于窃取信息）
+          li 密码可破解 WEP &lt; WPA &lt; WPA2
+
+      section
+        h2 Wi-Fi 对策
+        ul 
+          li 不乱连热点（CMCC，饭店，咖啡厅）
+          li 按员工用/访客用分开；网段隔离
+          li Mac绑定
+          li 定期扫描可疑热点
+          li 路由器也有漏洞（家用容易忽略）
+
+      section
+        h2 证书安全
+        什么是HTTPS/SSL/证书
+        ul 
+          li
+          li SSL = Secure Socket Layer
+          li HTTPS = HTTP + SSL
+          li 证书 = 身份证（由具有公信力的第三方颁发） + 公钥
+
+      section
+        h2 证书安全
+        h3 作用
+        ul
+          li 
+          li 通信加密
+          li 身份验证
+
+      section
+        h2 证书安全-对策
+        ul 
+          li 检查证书状态
+          li 证书有问题的确认网站来源
+          li 不安装第三方证书
+
+      section
+        img(src="images/security_4.png")
+
+      section
+        h2 证书安全-删除12306的根证书
+        ul 
+          li 开始 -> 运行 -> certmgr.msc
+          li 受信任的根证书颁发机构 -> 证书 -> 下拉找到“SRCA”证书项目，删掉即可。
+
+      section
+        h2 组织和管理
+
+      section
+        h2 人的因素
+        ul 
+          li 最重要的因素
+          li 最容易控制的因素
+          li 裁员辞退
+          li 离职员工管理
+          li 申请账号：个人邮箱等
+          li 签署保密协议（简单；实效性，取证比较困难）
+          li 增加对访问信息资产的认证和授权（实现复杂，成本高）
+
+      section
+        h2 人员发生变动的时候
+        ul 
+          li 一定要收回各种账户、访问权限
+
+      section
+        h2 一旦出事怎么办
+        ul
+          li 淡定
+          li 不要立刻做出决定
+          li 直接向上司报告
+          li 长期来说。。。
+          li 制定组织级别的安全事故方针、对策
+
+      section
+        h2 偏技术的话题
+
+        不懂没关系，混个脸熟总行吧。谨以此部分内容想给对技术一知半解还有点兴趣的童鞋。
+
+      section
+        h2 目前常见攻击-服务器
+        ul 
+          li SQL注入
+          li 跨站XSS(Cross Site Scripting)
+          li 跨站请求伪造（CSRF：Cross-site request forgery）
+          li DDoS，Distributed Denial of Service
+          li CC(Challenge Collapsar)
+
+      section
+        h2 恶意软件
+        ul
+          li 病毒： 感染文件
+          li 蠕虫： 独立存在，自我繁殖
+          li 特洛伊木马： 独自潜伏
+
+      section
+        h2 目前常见攻击-客户端
+        ul 
+          li 钓鱼(phishing)
+          li 肉鸡（bot）
+          li 僵尸网络（botnet）
+
+      section
+        h2 什么是社会工程（社工）
+
+        一种操纵他人采取特定行动的行为，该行动不一定符合“目标人”的最佳利益，其结果包括获取信息、取得访问权限或让目标采取特定的行动。
+
+      section
+        h2 社工
+        ul
+          li 信息收集是社会工程的一个关键方面
+          li 诈骗属于社工一种
+          li 很多非技术手段
+
+      section
+        h2 APT
+
+        高级持续渗透攻击(Advanced Persistent Threat，APT)
+
+        ul 
+          li 商业或政治为目的
+          li 长期的经营与策划
+          li 高度的隐蔽性
+          li 包含一些社会工程学(简称社工)因素
+          li 整个攻击过程 ≈≈≈≈ 精心导演的好莱坞大片
+
+      section
+        h2 0day
+        ul 
+          li 
+          li 未公开（地下流传），无补丁，未修正
+          li 私下交易，灰色地带
+          li 法律空白
+          li 政府买家
+
+      section
+        h2 0day
+
+        更多的渗透来自内部：Office pdf 宏，JavaScript，HTML
+
+      section
+        h2 凯文·米特尼克
+
+        Kevin Mitnick, Once the World’s Most Wanted Hacker, Is Now Selling Zero-Day Exploits
+
+        <a href='http://www.wired.com/2014/09/kevin-mitnick-selling-zero-day-exploits/' target="_blank">http://www.wired.com/2014/09/kevin-mitnick-selling-zero-day-exploits/</a>
+
+      section
+        h2 管理更进一步
+        h1 认证
+
+      section
+        h2 BS 7799(ISO/IEC 27001/27002)
+
+        BS 7799共分为两部分
+
+        h3 信息安全管理实施细则
+
+        h4 BS 7799-1:1999 -> ISO 17799 -> ISO 27002
+
+        h3 信息安全管理体系规范（Information Security Management System，简称ISMS)
+
+        h4 BS 7799-2:1999 -> ISO 27001
+
+      section
+        h2 ISO/IEC 17799:2005
+
+        p ISO/IEC 17799:2005版包括11 个方面、39 个控制目标和133 项控制措施
+        ul
+          li 1) 安全方针 2) 信息安全组织
+          li 3) 资产管理 4) 人力资源安全
+          li 5) 物理和环境安全
+          li 6) 通信和操作管理
+          li 7) 访问控制
+          li 8) 信息系统获取、开发和维护
+          li 9) 信息安全事故管理
+          li 10) 业务连续性管理
+          li 11) 符合性
+
+      section
+        h2 信息安全管理体系规范（ISMS)
+        ul 
+          li 为建立、实施、运行、监视、评审、保持和改进信息安全管理体系提供模型
+          li 以风险管理、风险评估为基础的信息安全管理体系
+          li 组织的一项战略性决策
+
+      section
+        h2 ISMS管理过程
+        ul 
+          li 确定信息安全管理方针
+          li 确定ISMS(信息安全管理体系)的范围
+          li 进行风险分析
+          li 选择控制目标并进行控制
+          li 建立业务持续计划
+          li 建立并实施安全管理体系
+
+      section
+        h2 PDCA（戴明环）
+
+        p PDCA（Plan、Do、Check、Act）是管理学惯用的一个过程模型，最早是由休哈特（WalterShewhart）于19 世纪30 年代构想的，后来被戴明（Edwards Deming）采纳、宣传并运用于持续改善产品质量的过程当中。
+
+        ul 
+          li P（Plan）-- 方针、目标和计划
+          li D（Do）-- 执行
+          li C（Check）-- 检查，总结执行结果，找出问题
+          li A（Action）-- 采取（纠正）行动
+
+      section
+        h2 最精精精精精简版
+        ul 
+          li 将人分类
+          li 将信息分类
+          li 做出权限矩阵
+
+      section
+        h2 实施ISMS的关键成功因素
+        ul 
+          li 与组织文化一致的信息安全方法
+          li 高层支持（组织级）
+          li 全员参与（包括外部）
+          li 足够的财务支持
+          li 严格执行，灵活应对
+          li 信息安全作为独立部门存在
+          li 技术与管理手段是不能分开的
+
+      section
+        h2 实施难点
+        ul 
+          li 投入巨大（人力，物力，金钱）
+          li 需要整体员工的全面配合
+          li 一定程度上造成机构编制增加
+          li 安全不是花费而是最好的投资
+
 
     // build:js scripts/scripts.js
     script(src='bower_components/bespoke.js/dist/bespoke.min.js')
